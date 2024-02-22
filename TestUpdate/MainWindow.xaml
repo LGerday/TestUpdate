@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TestUpdate"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Green">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label>
                 Current version
