@@ -19,11 +19,11 @@
 
             <Button x:Name="UpdateButton" Click="UpdateButton_Click"
                     Margin="0,15,0,0" IsEnabled="False">
-                Update
+                Mise a jour
             </Button>
 
             <Button Click="CheckForUpdatesButton_Click">
-                Check
+                Check for update
             </Button>
         </StackPanel>
     </Grid>
