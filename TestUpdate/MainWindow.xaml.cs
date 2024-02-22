@@ -45,6 +45,7 @@ namespace TestUpdate
             else
             {
                 UpdateButton.IsEnabled = false;
+                MessageBox.Show("Pas de mise a jour disponible");
             }
         }
 
@@ -52,7 +53,7 @@ namespace TestUpdate
         {
             await manager.UpdateApp();
 
-            MessageBox.Show("Mise a jour reussi!");
+            MessageBox.Show("Mise a jour reussi mgl!");
         }
     }
 }
