@@ -52,7 +52,7 @@ namespace TestUpdate
         {
             await manager.UpdateApp();
 
-            MessageBox.Show("Updated succesfuly!");
+            MessageBox.Show("Mise a jour reussi!");
         }
     }
 }
